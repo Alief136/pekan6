@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
                     'x-api-key': 'reqres-free-v1'
                   },
                 );
-
+//
                 if (myresponse.statusCode == 200) {
                   print("BERHASIL GET DATA");
 
